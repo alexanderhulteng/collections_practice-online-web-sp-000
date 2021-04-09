@@ -59,7 +59,7 @@ end
 
 def add_s(arr)
   arr.collect do |n|
-  next if n == 1
+  next if n == "feet"
   arr[n] += "s"
 end
 end
