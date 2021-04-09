@@ -60,7 +60,7 @@ end
 def add_s(arr)
   arr.each_with_index do |a, b|
     if b != 1
-       a+= "s"
+       a += "s"
      end
    end
 end
