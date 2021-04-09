@@ -58,5 +58,5 @@ def sum_array(arr)
 end
 
 def add_s(arr)
-arr.reject{|x| x == "feet"}.collect{|x| x + "s"}
+arr.collect{|x| x + "s"}
 end
