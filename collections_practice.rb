@@ -58,9 +58,11 @@ def sum_array(arr)
 end
 
 def add_s(arr)
+new_arr = []
 arr.each_with_index do |a, b|
   if b != 1
     a += "s"
   end
+  new_arr << a
 end
 end
