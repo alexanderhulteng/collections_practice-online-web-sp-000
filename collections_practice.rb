@@ -60,6 +60,6 @@ end
 def add_s(arr)
   arr.each do |n|
   next if n == 1
-  arr[n] += s
+  arr[n] += "s"
 end
 end
