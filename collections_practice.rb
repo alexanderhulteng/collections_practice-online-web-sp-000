@@ -58,8 +58,8 @@ def sum_array(arr)
 end
 
 def add_s(arr)
-  arr.each_with_index do! |a, b|
-    if b != 1
+  arr.each_with_index do |a, b|
+    next if b == 1
        a += "s"
      end
    end
