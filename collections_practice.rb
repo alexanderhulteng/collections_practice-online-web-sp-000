@@ -58,7 +58,7 @@ def sum_array(arr)
 end
 
 def add_s(arr)
-  arr.each do |n|
+  arr.collect do |n|
   next if n == 1
   arr[n] += "s"
 end
