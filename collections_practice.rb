@@ -58,8 +58,5 @@ def sum_array(arr)
 end
 
 def add_s(arr)
-  arr.each_with_index do |n, k|
-  next if k == 1
-  n += "s"
-end
+arr.reject{|x| x == 1}.collect{|x| x + "s"}
 end
