@@ -58,8 +58,8 @@ def sum_array(arr)
 end
 
 def add_s(arr)
-  arr.collect do |n|
-  next if n == "feet"
+  arr.each_with_index do |n, k|
+  next if k == 1
   n += "s"
 end
 end
