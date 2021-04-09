@@ -65,4 +65,5 @@ arr.each_with_index do |a, b|
   end
   new_arr << a
 end
+new_arr
 end
