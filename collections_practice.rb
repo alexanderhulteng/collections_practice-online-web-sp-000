@@ -60,6 +60,6 @@ end
 def add_s(arr)
   arr.collect do |n|
   next if n == "feet"
-  arr[n] += "s"
+  n += "s"
 end
 end
